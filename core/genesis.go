@@ -559,7 +559,7 @@ func DefaultGoerliGenesisBlock() *Genesis {
 	}
 }
 
-// DefaultGoerliGenesisBlock returns the Görli network genesis block.
+// DefaultFusionLayerGenesisBlock returns the FusionLayer network genesis block.
 func DefaultFusionLayerGenesisBlock() *Genesis {
 	return &Genesis{
 		Config:     params.FusionLayerConfig,
